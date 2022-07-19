@@ -1,0 +1,214 @@
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/*------------LOGO----*/
+.logo .header-pre-title {
+    color: var(--accent-color);
+
+}
+.logo {
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+}
+
+.header-site-nav .logo{
+    color: #000000;
+}
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-link{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+
+
+
+
+.header-current {
+    color: var(--accent-color);
+}
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+.header-contact {
+ color: var(--primary-text-color);
+ font-weight: 500;
+ font-size: 14px;
+ line-height: calc(16/14);
+}
+
+
+/* Секция эфективные решения*/
+
+.section-hero{
+        background-color: #2F303A;
+}
+
+.section-hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+    text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+     
+/*Заказать услугу*/
+.section-hero-btn
+{
+    background:var(--accent-color);
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:calc(30/16);
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+}
+.section-hero-btn:hover,
+.section-hero-btn:focus{
+   background: #2196F3;
+   color: #FFFFFF;
+}
+.section-primery {
+    color: var(--primary-text-color)
+}
+.section-primery-text-title{
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: #212121;
+}
+.section-primery-text {
+      color: var(--primary-text-color);
+      font-size: 14px;
+     line-height: 1.71;
+}
+
+.section-description-title{ 
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+}
+.section-team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+}
+.section-team-second-title{
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);
+        color: #212121;
+}
+.section-team-text{
+    
+        font-size: 16px;
+        line-height: calc(19/16);
+      
+}
+.footer{
+    background: #2F303A;
+}
+.footer-cursor{
+    cursor:none;
+}
+.footer .logo{
+    color: #FFFFFF;
+}
+.footer-title{
+    color:var(--accent-color);
+}
+
+.footer .address{
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+}
+.footer .address-k{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.visually-hidden {
+    /* Contain text within 1px box */
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+    /* Keep the layout */
+    position: absolute;
+    /* Remove any visible trace (e.g. background color) */
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    /* browsers in the future */
+    /* Prevent the screen reader to skip spaces between words */
+    white-space: nowrap;
+}
+.main-look-btn{
+    background: #F5F4FA;
+    color: var(--title-text-color);
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+    cursor: pointer;
+}
+.main-look-btn:hover,
+.main-look-btn:focus{
+    background: #2196F3;
+    color: #ffffff;
+}
+.gallery-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2;
+    color:var(--title-text-color);
+    letter-spacing: 0.06em;
+}
+.gallery-text{
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+
+/*основной цвет #212121;
+/* второй цвет #757575;
+/* logo #FFFFFF ; #2196F3;
+/*nav footer(255, 255, 255, 0.6);
+/* при нажатии #2196F3
